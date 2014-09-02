@@ -28,21 +28,37 @@ Make me a salami sandwich with swiss cheese on rye bread with mustard and mayo. 
 
 ### 2: Hashes in hashes
 ```
-city_info = {:new_york => { :mayor => "Bill Deblasio",
-							:population => 8337000
+city_info = {:new_york => { :mayor => "Bill DeBlasio",
+							:population => 8337000,
 							:website => "http://www.nyc.gov"
 							},
 			 :los_angeles => { :mayor => "Eric Garcetti",
-							:population => 3884307
+							:population => 3884307,
 							:website => "http://www.lacity.org"
 							},
 			 :miami => { :mayor => "Tomás Regalado",
-							:population => 419777
+							:population => 419777,
 							:website => "http://www.miamigov.com"
 							},
 			 :chicago => { :mayor => "Rahm Emanuel",
-							:population => 2695598
+							:population => 2695598,
 							:website => "http://www.cityofchicago.org/"
 							}
 		}
 ```
+The `city_info` hash above is a series of nested hashes. What do I get returned if I ask for:
++ `city_info[:los_angeles]`
++ `city_info[:chicago][:mayor]`
+
+What Code should I write to return each of these?:
++ The population of New York
++ The website for Miami city government
++ The mayor of Los Angeles
++ A hash with all information on Chicago.
+
+Bonus: Use an each loop with another each loop to puts a string for each key value pair belonging to a city. For example, for Miami you should see:
+
+```
+"The mayor of miami is Bill Deblasio"
+"The population of miami is 419777"
+"The website of miami is http://www.miamigov.com"
