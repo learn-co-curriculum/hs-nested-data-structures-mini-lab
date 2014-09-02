@@ -24,4 +24,6 @@ What code should I write to return each of these?:
 + "cheddar"
 + "sourdough"
 
+Make me a salami sandwich with swiss cheese on rye bread with mustard and mayo. Thank you.
+
 ### 2: Hashes in hashes
