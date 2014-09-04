@@ -59,6 +59,6 @@ What Code should I write to return each of these?:
 Bonus: Use an each loop with another each loop to puts a string for each key value pair belonging to a city. For example, for Miami you should see:
 
 ```
-"The mayor of miami is Bill Deblasio"
+"The mayor of miami is Tomás Regalado"
 "The population of miami is 419777"
 "The website of miami is http://www.miamigov.com"
