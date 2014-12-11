@@ -13,9 +13,9 @@ Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashe
 sandwich = [["rye", "sourdough", "baguette"],[["ham", "salami", "turkey"],["swiss", "munster", "cheddar"]],["mayo", "mustard", "tabasco"]]
 ```
 The `sandwich` array above is a series of nested arrays. What do I get if I ask for:
-+ `sandwich[0][1]`?
-+ `sandwich[1]`?
-+ `sandwich[1][0][0]`?
++ `sandwich[0][1]` ?
++ `sandwich[1]` ?
++ `sandwich[1][0][0]` ?
 
 What code should I write to return each of these?:
 + ["mayo", "mustard", "tabasco"]
@@ -45,8 +45,8 @@ city_info = {:new_york => { :mayor => "Bill DeBlasio",
 		}
 ```
 The `city_info` hash above is a series of nested hashes. What do I get returned if I ask for:
-+ `city_info[:los_angeles]`?
-+ `city_info[:chicago][:mayor]`?
++ `city_info[:los_angeles]` ?
++ `city_info[:chicago][:mayor]` ?
 
 What Code should I write to return each of these?:
 + The population of New York
