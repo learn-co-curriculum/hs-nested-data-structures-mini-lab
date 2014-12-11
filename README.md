@@ -8,7 +8,7 @@ type: lab
 <img src="https://s3.amazonaws.com/after-school-assets/nesting.jpg"> 
 Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashes inside of arrays inside of hashes! Oh my!
 
-### 1: Arrays in arrays
+### 1: Arrays in Arrays
 ```ruby
 sandwich = [["rye", "sourdough", "baguette"],[["ham", "salami", "turkey"],["swiss", "munster", "cheddar"]],["mayo", "mustard", "tabasco"]]
 ```
@@ -48,7 +48,7 @@ The `city_info` hash above is a series of nested hashes. What do I get returned 
 + `city_info[:los_angeles]` ?
 + `city_info[:chicago][:mayor]` ?
 
-What Code should I write to return each of these?:
+What code should I write to return each of these?:
 + The population of New York
 + The website for Miami city government
 + The mayor of Los Angeles
