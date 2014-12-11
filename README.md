@@ -4,8 +4,10 @@ language: ruby
 level: 1
 type: lab
 ---
+
+<img src="https://s3.amazonaws.com/after-school-assets/nesting.jpg"> 
 ##Nesting Habits
-<img src="https://s3.amazonaws.com/after-school-assets/nesting.jpg" align="right" width="400px" hspace="10"> Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashes inside of arrays inside of hashes! Oh my!
+Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashes inside of arrays inside of hashes! Oh my!
 
 ### 1: Arrays in arrays
 
