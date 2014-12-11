@@ -9,14 +9,13 @@ type: lab
 Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashes inside of arrays inside of hashes! Oh my!
 
 ### 1: Arrays in arrays
-
 ```ruby
 sandwich = [["rye", "sourdough", "baguette"],[["ham", "salami", "turkey"],["swiss", "munster", "cheddar"]],["mayo", "mustard", "tabasco"]]
 ```
-The `sandwich` array above is a series of nested arrays. What do I get if I ask for
-+ `sandwich[0][1]`
-+ `sandwich[1]`
-+ `sandwich[1][0][0]`
+The `sandwich` array above is a series of nested arrays. What do I get if I ask for:
++ `sandwich[0][1]`?
++ `sandwich[1]`?
++ `sandwich[1][0][0]`?
 
 What code should I write to return each of these?:
 + ["mayo", "mustard", "tabasco"]
@@ -25,7 +24,7 @@ What code should I write to return each of these?:
 
 Make me a salami sandwich with swiss cheese on rye bread with mustard and mayo. Thank you.
 
-### 2: Hashes in hashes
+### 2: Hashes in Hashes
 ```
 city_info = {:new_york => { :mayor => "Bill DeBlasio",
 							:population => 8337000,
@@ -46,18 +45,19 @@ city_info = {:new_york => { :mayor => "Bill DeBlasio",
 		}
 ```
 The `city_info` hash above is a series of nested hashes. What do I get returned if I ask for:
-+ `city_info[:los_angeles]`
-+ `city_info[:chicago][:mayor]`
++ `city_info[:los_angeles]`?
++ `city_info[:chicago][:mayor]`?
 
 What Code should I write to return each of these?:
 + The population of New York
 + The website for Miami city government
 + The mayor of Los Angeles
-+ A hash with all information on Chicago.
++ A hash with all information on Chicago
 
-Bonus: Use an each loop with another each loop to puts a string for each key value pair belonging to a city. For example, for Miami you should see:
+Bonus: Use an `each` loop with another `each` loop to `puts` a string for each key value pair belonging to a city. For example, for Miami you should see:
 
 ```
 "The mayor of miami is Tomás Regalado"
 "The population of miami is 419777"
 "The website of miami is http://www.miamigov.com"
+```
