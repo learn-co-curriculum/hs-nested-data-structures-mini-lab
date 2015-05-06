@@ -1,5 +1,5 @@
 sourdough
-ham, salami, turkey, swiss, munster, cheddar
+[["ham", "salami", "turkey"],["swiss", "munster", "cheddar"]]
 ham
 sandwich[2]
 sandwich[1][1][2]
