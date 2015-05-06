@@ -1,0 +1,13 @@
+sourdough
+ham, salami, turkey, swiss, munster, cheddar
+ham
+sandwich[2]
+sandwich[1][1][2]
+sandwich[0][1]
+sandwich[0][0],sandwich[1][1][0], sandwich[1][0][1], sandwich[2][0], sandwich[2][1],sandwich[0][0]
+:mayor => "Eric Garcetti", :population => 3884307, :website => "http://www.lacity.org"
+Rahm Emanuel
+city_info[:new_york][:population]
+city_info[:miami][:website]
+city_info[:los_angeles][:mayor]
+city_info[:chicago]
