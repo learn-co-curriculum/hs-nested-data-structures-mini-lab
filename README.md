@@ -56,3 +56,5 @@ Bonus: Use an `each` loop with another `each` loop to `puts` a string for each k
 "The population of miami is 419777"
 "The website of miami is http://www.miamigov.com"
 ```
+
+<a href='https://learn.co/lessons/hs-nested-data-structures-mini-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
