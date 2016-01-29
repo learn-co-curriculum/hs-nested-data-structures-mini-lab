@@ -57,4 +57,4 @@ Bonus: Use an `each` loop with another `each` loop to `puts` a string for each k
 "The website of miami is http://www.miamigov.com"
 ```
 
-<a href='https://learn.co/lessons/hs-nested-data-structures-mini-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-nested-data-structures-mini-lab' title='Nesting Habits'>Nesting Habits</a> on Learn.co and start learning to code for free.</p>
